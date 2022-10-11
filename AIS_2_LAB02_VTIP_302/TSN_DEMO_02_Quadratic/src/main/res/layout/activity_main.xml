@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Табличная разметка элементов по-центру всего экрана -->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/image"
+    android:stretchColumns="*">
+
+    <ImageView
+        android:id="@+id/imageView"
+        app:srcCompat="@drawable/task"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="114dp" />
+    <!-- Строка таблицы 1 -->
+    <TableRow>
+
+        <!-- Текстовая надпись размером в 6 ячеек по-центру -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="@string/Решение_квадратного_уравнения"
+             />
+
+    </TableRow>
+
+    <!-- Строка таблицы 2 -->
+    <TableRow>
+
+        <!-- Текстовая надпись справа -->
+        <TextView
+            android:id="@+id/textView2"
+            android:text="a="
+            android:gravity="right"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <!-- Поле ввода числа со знаком для "a" -->
+        <EditText
+            android:id="@+id/editText_a"
+            android:inputType="number|text"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+        <!-- Текстовая надпись справа -->
+        <TextView
+            android:id="@+id/textView3"
+            android:text="b="
+            android:gravity="right"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <!-- Поле ввода числа со знаком для "b" -->
+        <EditText
+            android:id="@+id/editText_b"
+            android:inputType="number|text"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+        <!-- Текстовая надпись справа -->
+        <TextView
+            android:id="@+id/textView4"
+            android:gravity="right"
+            android:text="x="
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <!-- Поле ввода числа со знаком для "c" -->
+        <EditText
+            android:id="@+id/editText_x"
+            android:inputType="number|text"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor" />
+
+    </TableRow>
+
+    <!-- Строка таблицы 3 -->
+    <TableRow>
+
+        <!-- Кнопка для расчета размером в 6 ячеек -->
+        <Button
+            android:id="@+id/button"
+            android:layout_span="6"
+            android:onClick="onCalc"
+            android:text="РЕШИТЬ"
+            android:textColor="#ffffff"
+            android:background="#9500FF"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <!-- Строка таблицы 4 -->
+    <TableRow>
+
+        <!-- Текстовая надпись размером в 6 ячеек по-центру -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_span="6"
+            android:gravity="center"
+            android:text="Ответ:"
+            tools:ignore="HardcodedText" />
+
+    </TableRow>
+
+    <!-- Строка таблицы 5 -->
+
+        <!-- Текстовая надпись для отображения "x1" по-центру в 3 ячейки -->
+        <TextView
+            android:id="@+id/textView_y"
+            android:layout_span="3"
+            android:gravity="center"
+            android:text="y="
+            tools:ignore="HardcodedText" />
+
+        <!-- Текстовая надпись для отображения "x2" по-центру в 3 ячейки  -->
+
+
+
+</TableLayout>
