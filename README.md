@@ -1,10 +1,10 @@
 # LAB02_AIS_ANDROIDSTUDIO
 Лабораторная работа №2 по дисциплине "Разработка мобильных приложений" по 2-ому варианту.
 
-![VerticalScreenshot](https://user-images.githubusercontent.com/71010650/191542068-9d157333-5ee3-42e3-a682-62b60ac25ac9.png)
+![Снимок](https://user-images.githubusercontent.com/71010650/194997040-d61b8a07-c0ab-4019-9efb-665209dcc0cd.PNG)
 
+![Снимок2](https://user-images.githubusercontent.com/71010650/194997048-b06bb48e-31e3-4577-b1d3-8dedc22910af.PNG)
 
-![HorizontalScreenshot](https://user-images.githubusercontent.com/71010650/191542040-7d19de3b-92a2-4ccc-982e-7af7d41e2a37.png)
 
 Задание:
 1) Необходимо выполнить задание №1 с использованием 2-х разметок: горизонтальной и вертикальной:
